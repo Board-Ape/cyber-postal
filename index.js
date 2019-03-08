@@ -5,4 +5,7 @@ app.get('/', (req, res) => {
     res.send({hi: "okay"})
 });
 
-app.listen(4200)
+const PORT = process.env.PORT || 5000
+app.listen(PORT)
+
+// Not sure
